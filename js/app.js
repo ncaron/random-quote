@@ -25,6 +25,7 @@ function getQuote() {
 
 		$('#quote-text').html('<i class="fa fa-quote-left" aria-hidden="true"></i> ' + quoteText + ' <i class="fa fa-quote-right" aria-hidden="true"></i>');
 		$('#quote-author').html('- ' + quoteAuthor);
+		
 		$('#tweet').attr('href', twitterLink);
 	});
 }
